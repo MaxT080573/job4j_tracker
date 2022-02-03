@@ -11,6 +11,7 @@ public class Jukebox {
                 System.out.println("Мелодия не найдена");
             }
         }
+
         public static void main(String[]args) {
             Jukebox song = new Jukebox();
             song.music(1);
