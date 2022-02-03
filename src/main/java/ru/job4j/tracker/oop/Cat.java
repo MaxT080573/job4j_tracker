@@ -18,7 +18,7 @@ public class Cat {
     public static void main(String[] args) {
         System.out.println("There are gav's food.");
         Cat gav = new Cat();
-        gav.eat("cutlet.");
+        gav.eat("cutlet ");
         gav.giveNick("Gav has eaten the ");
         gav.show();
         System.out.println("There are black's food.");
