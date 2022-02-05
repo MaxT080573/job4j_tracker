@@ -1,4 +1,4 @@
-package ru.job4j.tracker.oop;
+package ru.job4j.oop;
 
 public class BallStory {
 
@@ -7,9 +7,8 @@ public class BallStory {
         Fox fox = new Fox();
         Hare hare = new Hare();
         Wolf wolf = new Wolf();
-        fox.tryEat(ball);
-        wolf.tryEat(ball);
         hare.tryEat(ball);
-        ball.tryRun(true);
+        wolf.tryEat(ball);
+        fox.tryEat(ball);
     }
 }
