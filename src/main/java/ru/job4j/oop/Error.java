@@ -30,6 +30,6 @@ public class Error {
             System.out.println("Активность: " + active);
             System.out.println("Статус: " + status);
             System.out.println("Cообщение: " + message);
-        }
+    }
 }
 
