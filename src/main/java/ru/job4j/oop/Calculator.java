@@ -2,9 +2,9 @@ package ru.job4j.oop;
 
 public class Calculator {
 
-    private static final int x = 5;
+    private static final int X = 5;
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Calculator calculator = new Calculator();
         int result = Calculator.sum(10);
         int result1 = Calculator.minus(10);
@@ -18,23 +18,23 @@ public class Calculator {
         System.out.println(result4);
     }
 
-    public static int sum (int y) {
-        return x + y;
+    public static int sum(int y) {
+        return X + y;
     }
 
-    public static int minus (int y) {
-        return x - y;
+    public static int minus(int y) {
+        return X - y;
     }
 
-    public int divide (int y) {
-        return x / y;
+    public int divide(int y) {
+        return X / y;
     }
 
     public int multiply(int a) {
-        return x * a;
+        return X * a;
     }
 
-    public int sumAllOperation (int result, int result1, int result2, int result3) {
+    public int sumAllOperation(int result, int result1, int result2, int result3) {
         return result + result1 + result2 + result3;
     }
 
