@@ -10,7 +10,7 @@ public class Calculator {
         int result1 = Calculator.minus(10);
         int result2 = calculator.divide(5);
         int result3 = calculator.multiply(5);
-        int result4 = calculator.sumAllOperation(result,result1,result2,result3);
+        int result4 = calculator.sumAllOperation(result, result1, result2, result3);
         System.out.println(result);
         System.out.println(result1);
         System.out.println(result2);
