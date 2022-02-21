@@ -2,26 +2,26 @@ package ru.job4j.oop;
 
 public class Calculator {
 
-    private static final int Х = 5;
+    private static final int x = 5;
 
     private static final int y = 15;
 
     private static final int a = 5;
 
     public static int sum(int y) {
-        return Х + y;
+        return x + y;
     }
 
     public static int minus(int y) {
-        return y - Х;
+        return y - x;
     }
 
     public int divide(int y) {
-        return y / Х;
+        return y / x;
     }
 
     public int multiply(int a) {
-        return Х * a;
+        return x * a;
     }
 
     public static void main(String[] args) {
