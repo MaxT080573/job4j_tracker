@@ -2,11 +2,11 @@ package ru.job4j.oop;
 
 public class Calculator {
 
-    private static final int x = 5;
+    private static int x = 5;
 
-    private static final int y = 15;
+    private static int y = 15;
 
-    private static final int a = 5;
+    private static int a = 5;
 
     public static int sum(int y) {
         return x + y;
@@ -39,7 +39,7 @@ public class Calculator {
     }
 
     public int sumAllOperation(int y) {
-        return sum (y) + minus (y) + divide (y) + multiply (a);
+        return sum(y) + minus(y) + divide(y) + multiply(a);
 
     }
 
