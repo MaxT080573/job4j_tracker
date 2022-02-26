@@ -33,7 +33,7 @@ public class Calculator {
 
     }
 
-    public int sumAllOperation () {
+    public int sumAllOperation() {
         return sum(1) + minus(10) + divide(20) + multiply(30);
 
     }
