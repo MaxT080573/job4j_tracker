@@ -16,7 +16,9 @@ public class Calculator {
         return y / x;
     }
 
-    public int multiply(int y) { return y * x; }
+    public int multiply(int y) {
+        return y * x;
+    }
 
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
