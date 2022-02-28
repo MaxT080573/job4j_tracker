@@ -28,7 +28,7 @@ public class Calculator {
         int result2 = Calculator.minus(10);
         int result3 = calculator.divide(20);
         int result4 = calculator.multiply(30);
-        int result = result1 + result2 + result3 + result4;
+        int result = calculator.sumAllOperation(50);
         System.out.println(result1);
         System.out.println(result2);
         System.out.println(result3);
