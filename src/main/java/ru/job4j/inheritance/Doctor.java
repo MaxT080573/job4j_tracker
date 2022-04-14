@@ -12,7 +12,7 @@ public class Doctor extends Profession {
         this.surgeon = surgeon;
     }
 
-    public String getBuilder(){
+    public String getBuilder() {
 
         return this.dentist;
     }
