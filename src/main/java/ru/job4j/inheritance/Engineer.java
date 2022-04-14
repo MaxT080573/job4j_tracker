@@ -6,18 +6,18 @@ public class Engineer extends Profession {
 
     private String programmer;
 
-    public Engineer (String name, String surname, String education, String birthday, String builder, String programmer) {
+    public Engineer(String name, String surname, String education, String birthday, String builder, String programmer) {
         super(name, surname, education, birthday);
         this.builder = builder;
         this.programmer = programmer;
     }
 
-    public String getBuilder () {
+    public String getBuilder() {
 
         return this.builder;
     }
 
-    public String getProgrammer () {
+    public String getProgrammer() {
 
         return this.programmer;
     }
