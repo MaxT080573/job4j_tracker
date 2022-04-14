@@ -13,10 +13,12 @@ public class Doctor extends Profession {
     }
 
     public String getBuilder () {
+
         return this.dentist;
     }
 
     public String getProgrammer () {
+
         return this.surgeon;
     }
 
