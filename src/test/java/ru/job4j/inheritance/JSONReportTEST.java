@@ -5,6 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class JSONReportTEST {
+
     @Test
     public void whenTestGenerateMethod() {
         String ln = System.lineSeparator();
