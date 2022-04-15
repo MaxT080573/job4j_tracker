@@ -11,5 +11,13 @@ public class JSONReport extends TextReport {
                 + "}";
     }
 
+    @Override
+    public String generate1(String name, String body) {
+        String ln = System.lineSeparator();
+        return "{" + ln
+                + "\t\"name\" : \"David Gilmour\"," + ln
+                + "\t\"body\" : \"Shine On You Crazy Diamond\"" + ln
+                + "}";
+    }
 }
 

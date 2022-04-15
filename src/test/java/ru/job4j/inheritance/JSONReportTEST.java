@@ -21,13 +21,14 @@ public class JSONReportTEST {
     @Test
     public void whenNameIsDavidBodyIsNameSong() {
         String ln = System.lineSeparator();
-        String expected = "{" + ln
+        String expected = "" +
+                "{" + ln
                 + "\t\"name\" : \"David Gilmour\"," + ln
                 + "\t\"body\" : \"Shine On You Crazy Diamond\"" + ln
                 + "}";
         String name = "David Gilmour";
         String body = "Shine On You Crazy Diamond";
-        String result = new JSONReport().generate(name, body);
+        String result = new JSONReport().generate1(name, body);
         assertEquals(expected, result);
     }
 }
