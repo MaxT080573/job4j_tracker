@@ -7,12 +7,12 @@ public class JSONReport extends TextReport {
         return "{" + ln
                 + "\t\"name\" : \"Report's name\"," + ln
                 + "\t\"body\" : \"Report's body\"" + ln
-                + "}" ;
+                + "}";
     }
 
     public static  void main(String name, String body) {
-        JSONReport Report = new JSONReport();
-        System.out.println(Report.generate("\"name\"", "\"body\""));
+        JSONReport newReport = new JSONReport();
+        System.out.println(newReport.generate("\"name\"", "\"body\""));
     }
 }
 
