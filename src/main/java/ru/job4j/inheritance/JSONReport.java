@@ -2,6 +2,7 @@ package ru.job4j.inheritance;
 
 public class JSONReport extends TextReport {
 
+    @Override
     public String generate(String name, String body) {
         String ln = System.lineSeparator();
         return "{" + ln
@@ -10,9 +11,5 @@ public class JSONReport extends TextReport {
                 + "}";
     }
 
-    public static  void main(String name, String body) {
-        JSONReport newReport = new JSONReport();
-        System.out.println(newReport.generate("\"name\"", "\"body\""));
-    }
 }
 
