@@ -21,8 +21,7 @@ public class JSONReportTEST {
     @Test
     public void whenNameIsDavidBodyIsNameSong() {
         String ln = System.lineSeparator();
-        String expected = "" +
-                "{" + ln
+        String expected = "{" + ln
                 + "\t\"name\" : \"David Gilmour\"," + ln
                 + "\t\"body\" : \"Shine On You Crazy Diamond\"" + ln
                 + "}";
