@@ -1,7 +1,6 @@
 package ru.job4j.inheritance;
 
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class JSONReportTEST {
@@ -28,7 +27,7 @@ public class JSONReportTEST {
                 + "}";
         String name = "David Gilmour";
         String body = "Shine On You Crazy Diamond";
-        String result = new JSONReport().generate1(name, body);
+        String result = new JSONReport().generate(name, body);
         assertEquals(expected, result);
     }
 }
