@@ -7,7 +7,7 @@ public class Item {
 
     LocalDateTime created = LocalDateTime.now();
 
-        public LocalDateTime getCreated () {
+        public LocalDateTime getCreated() {
             return created;
         }
 
@@ -21,24 +21,24 @@ public class Item {
             this.name = name;
         }
 
-    public Item( int id, String name){
+    public Item(int id, String name) {
             this.name = name;
             this.id = id;
         }
 
-        public int getId () {
+        public int getId() {
             return id;
         }
 
-        public void setId ( int id){
+        public void setId(int id){
             this.id = id;
         }
 
-        public String getName () {
+        public String getName() {
             return name;
         }
 
-        public void setName (String name){
+        public void setName(String name) {
             this.name = name;
         }
     }
