@@ -1,20 +1,19 @@
 package ru.job4j;
 
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class Item {
 
-    LocalDateTime created = LocalDateTime.now();
+    private int id;
+    private String name;
+    private LocalDateTime created = LocalDateTime.now();
 
-        public LocalDateTime getCreated() {
-            return created;
+    public LocalDateTime getCreated() {
+        return created;
         }
 
-        private int id;
-        private String name;
-
     public Item() {
+
         }
 
     public Item(String name) {
