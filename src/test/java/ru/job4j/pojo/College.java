@@ -6,6 +6,7 @@ public class College {
         student.setName("Smirnov Ivan Petrovich ");
         student.setGroup("ER-87-1 ");
         student.setDate("27/07/1987");
+
         System.out.println(student.getName() + student.getGroup() +  student.getDate());
     }
 }
