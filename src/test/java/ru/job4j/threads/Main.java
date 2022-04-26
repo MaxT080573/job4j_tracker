@@ -1,8 +1,8 @@
 package ru.job4j.threads;
 
-public class Main{
+public class Main {
 
-    public static void main (String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         ThreadOne myThread = new ThreadOne();
         ThreadTwo myThread2 = new ThreadTwo();
 
@@ -12,10 +12,10 @@ public class Main{
     }
 }
 
-class ThreadOne extends Thread implements Runnable{
+class ThreadOne extends Thread implements Runnable {
 
     @Override
-    public void run () {
+    public void run() {
         while (true) {
             System.out.println("поток 1");
             try {
@@ -27,10 +27,10 @@ class ThreadOne extends Thread implements Runnable{
     }
 }
 
-class ThreadTwo extends Thread implements Runnable{
+class ThreadTwo extends Thread implements Runnable {
 
     @Override
-    public void run () {
+    public void run() {
         while (true) {
             System.out.println("поток 2");
             try {

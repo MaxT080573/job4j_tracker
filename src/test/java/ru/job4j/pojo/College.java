@@ -1,7 +1,7 @@
 package ru.job4j.pojo;
 
 public class College {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Student student = new Student();
         student.setName("Smirnov Ivan Petrovich ");
         student.setGroup("ER-87-1 ");

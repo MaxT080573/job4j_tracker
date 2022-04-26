@@ -5,27 +5,27 @@ public class Student {
     private String group;
     private String date;
 
-    public String getGroup () {
+    public String getGroup() {
         return group;
     }
 
-    public void setGroup (String group) {
+    public void setGroup(String group) {
         this.group = group;
     }
 
-    public String getDate () {
+    public String getDate() {
         return date;
     }
 
-    public void setDate (String date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
-    public String getName () {
+    public String getName() {
         return name;
     }
 
-    public void setName (String name) {
+    public void setName(String name) {
         this.name = name;
     }
 }
