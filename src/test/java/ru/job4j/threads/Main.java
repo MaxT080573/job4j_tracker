@@ -19,7 +19,7 @@ class ThreadOne extends Thread implements Runnable {
         while (true) {
             System.out.println("поток 1");
             try {
-                sleep(2000);
+                sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -34,7 +34,7 @@ class ThreadTwo extends Thread implements Runnable {
         while (true) {
             System.out.println("поток 2");
             try {
-                sleep(2000);
+                sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

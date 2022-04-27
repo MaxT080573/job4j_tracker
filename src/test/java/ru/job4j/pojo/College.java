@@ -7,6 +7,6 @@ public class College {
         student.setGroup("ER-87-1 ");
         student.setDate("27/07/1987");
 
-        System.out.println(student.getName() + student.getGroup() +  student.getDate());
+        System.out.println(student.getName() + student.getGroup() + student.getDate());
     }
 }
