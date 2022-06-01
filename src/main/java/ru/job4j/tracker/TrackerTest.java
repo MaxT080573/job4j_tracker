@@ -1,10 +1,9 @@
 package ru.job4j.tracker;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
-
 
 public class TrackerTest {
     @Test
@@ -50,7 +49,7 @@ public class TrackerTest {
         tracker.add(new Item("First"));
         tracker.add(new Item("Second"));
         tracker.add(new Item("First"));
-        Item result[] = tracker.findByName(first.getName());
+        Item[] result = tracker.findByName(first.getName());
         assertThat(result.length, is(3));
     }
 

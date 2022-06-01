@@ -7,22 +7,23 @@ public class Tracker {
     private int ids = 1;
     private int size = 0;
 
-    public Item add (Item item) {
+    public Item add(Item item) {
         item.setId(ids++);
         items[size++] = item;
         return item;
     }
 
-    public Item findByName(String key) {
-        Item rsl = new Item();
+    public Item[] findByName(String key) {
+        Item[] rsl = new Item[size];
+        int id = 0;
         for (int index = 0; index < size; index++) {
             Item item = items[index];
-            if (item.getName() == key) {
-                rsl = item;
-                break;
+            if (item.getName().equals(key)) {
+                rsl[id] = items[index];
+                id++;
             }
         }
-        return rsl;
+        return Arrays.copyOf(rsl, id);
     }
 
    public Item findById(int id) {
@@ -37,7 +38,7 @@ public class Tracker {
       return rsl;
     }
 
-    public Item[] findAll(){
+    public Item[] findAll() {
         return Arrays.copyOf(items, size);
 
     }
