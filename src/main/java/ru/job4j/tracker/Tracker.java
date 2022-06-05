@@ -41,14 +41,15 @@ public class Tracker {
         }
         return rsl;
     }
+
     public boolean replace(int id, Item item) {
         if (indexOf(id) > -1) {
             items[indexOf(id)].setName(item.getName());
             return true;
-        } else
-           return false;
+        } else {
+            return false;
         }
-
+    }
     public Item[] findAll() {
         return Arrays.copyOf(items, size);
     }
