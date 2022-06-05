@@ -50,6 +50,7 @@ public class Tracker {
             return false;
         }
     }
+
     public Item[] findAll() {
         return Arrays.copyOf(items, size);
     }
