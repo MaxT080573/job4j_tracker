@@ -55,7 +55,7 @@ public class Item {
       this.name = name;
    }
 
-   public static DateTimeFormatter getFormatter () {
+   public static DateTimeFormatter getFormatter() {
       return FORMATTER;
    }
 }
