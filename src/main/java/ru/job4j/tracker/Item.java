@@ -10,6 +10,18 @@ public class Item {
    private LocalDateTime created = LocalDateTime.now();
    private static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("dd-MMMM-EEEE-yyyy HH:mm:ss");
 
+   public Item() {
+   }
+
+   public Item(String name) {
+      this.name = name;
+   }
+
+   public Item(int id, String name) {
+      this.name = name;
+      this.id = id;
+   }
+
    @Override
    public String toString() {
       return "Item{"
@@ -21,18 +33,6 @@ public class Item {
               ", created=" + created.format(FORMATTER)
               +
               '}';
-   }
-
-   public Item() {
-   }
-
-   public Item(String name) {
-      this.name = name;
-   }
-
-   public Item(int id, String name) {
-      this.name = name;
-      this.id = id;
    }
 
    public LocalDateTime getCreated() {
