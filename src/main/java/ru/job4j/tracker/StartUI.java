@@ -28,7 +28,7 @@ public class StartUI {
                 System.out.println("Хранилище еще не содержит заявок");
             }
          } else if (select == 6) {
-              run = false;
+            run = false;
          }
       }
    }
